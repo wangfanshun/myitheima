@@ -28,7 +28,7 @@ export default {
     return {
       value: "",
       channels: [],
-      active: 0,
+      active: 2,
       articles: ""
     };
   },
@@ -69,12 +69,12 @@ export default {
   }
   /deep/.van-tabs {
     border-right: 1px solid #aeaeae;
-    margin-top: 180px;
+    margin-top: 110px;
     .van-tabs__wrap {
       border-bottom: 1px solid #aeaeae;
-      position: fixed;
-			z-index: 999;
-			top:96px;
+      // position: fixed;
+			// z-index: 999;
+			// top:96px;
       // border-right:1px,solid #aeaeae;
 
       .van-tabs__line {
