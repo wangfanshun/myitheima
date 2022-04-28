@@ -13,7 +13,7 @@
                 <van-image width="100" height="100" round :src='userInfo.photo'/>
                 <span>{{userInfo.name}}</span>
             </div>
-            <van-button round type="info" class='right' size='mini' hairline=''>编辑资料</van-button>
+            <van-button round type="info" class='right' size='mini' hairline='' to='/user'>编辑资料</van-button>
         </div>
         <div class="data_status">
             <div class="data_msg"><span class='number'>{{userInfo.art_count}}</span><span class="text">头条</span></div>

@@ -3,6 +3,7 @@ import Vuex from 'vuex'
 import {setLocal,getLocal} from '@/utils/storage'
 Vue.use(Vuex)
 const TOKEN_KEY='TOUTIAO_USER'
+// const channels='TOUTIAO_USER_channels'
 export default new Vuex.Store({
     state:{
         //一个对象里面用来存储当前用户信息，包括token等数据
